@@ -108,9 +108,23 @@ a {
 			width:160px;
 		 }
 
+<<<<<<< HEAD
 /* --- Main Part --- */
 #main-section {
 	border-bottom: 1px solid #ccc;
+=======
+/* Index pic */
+#index-pic {
+	text-align: center;
+}
+	#index-pic img {
+		height: 316px;
+	}
+
+/* -- Bottom part of index -- */
+#bottom-index {
+	background: rgba(0,0,0,.46);
+>>>>>>> 986221e084ccc9a47c778d7572e57ce25f819c71
 }
 #main-section:after {
 	content: "";
