@@ -1,4 +1,4 @@
-body, header, aside, section, article, footer, div, img, h1, h2, h3, h4, h5, h6, p {
+body, header, aside, section, article, footer, div, img, h1, h2, h3, h4, h5, h6, p, ul, li {
 	padding: 0;
 	margin: 0;
 }
@@ -9,6 +9,10 @@ body{
 	background-size: cover;
 }
 
+a {
+	text-decoration: none;
+}
+
 .wrap {
 	width: 960px;
 	margin: 0 auto;
@@ -16,7 +20,7 @@ body{
 
 /* -- Header -- */
 #header {
-	background: rgba(35, 68, 101, 0.8);
+	background: rgba(0, 0, 0, 0.86)
 }
 #header:after {
 	content: "";
@@ -26,6 +30,7 @@ body{
 	/* Logo */
 	#logo {
 		float: left;
+		margin:10px;
 	}
 		#logo img {
 			height: 78px;
@@ -34,18 +39,67 @@ body{
 	/* Navigation */
 	#main-nav {
 		float: right;
-		margin-right: 24px;
+		margin-top: 38px;
 	}
 		#main-nav ul {
 			list-style-type: none;
+			list-style: none;
+			font: bold 20px 'Trebuchet MS', Tahoma, verdana, sans-serif;
 		}
 			#main-nav ul li {
 				float: left;
-				padding: 6px 18px;
+				padding: 0 18px;
 			}
 				#main-nav ul li a {
-					color: red;
+					float: left;
+					font-size: 18px;
+					color: #fff;
 				}
+				#header ul li a:hover, #header #current a{
+					border-top: 5px solid #fff;	
+				}
+				#header #current a {
+				  	color: #fff;
+				  	border-top: 5px solid #29ede9;
+				}
+			/* search form */
+		#search {
+			float: right;
+			margin-right: 20px;
+			margin-top: 30px;
+		}
+		#search:after {
+			content: "";
+			clear: both;
+			display: block;
+		}
+		#search-btn {
+			float: left;
+			background: #29ede9;
+			color: #fff;
+			font: 'trebuchet ms', trebuchet;
+			padding: 10px 20px;
+			border-radius: 0 10px 10px 0;
+			-moz-border-radius: 0 10px 10px 0;
+			-webkit-border-radius: 0 10px 10px 0;
+			-o-border-radius: 0 10px 10px 0;
+			border: 0 none;
+			font-weight: bold;
+		}
+		 
+		#search-box {
+			float: left;
+			background: #FFF;
+			position: relative;
+			right: -2px;
+			padding:10px; 
+			 border-radius:10px 0 0 10px;
+			-moz-border-radius:10px 0 0 10px;
+			-webkit-border-radius:10px 0 0 10px;
+			-o-border-radius:10px 0 0 10px;
+			border:0 none;
+			width:160px;
+		 }
 
 /* -- Bottom part of index -- */
 #bottom-index {
