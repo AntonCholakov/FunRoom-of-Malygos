@@ -9,6 +9,10 @@ body{
 	background-size: cover;
 }
 
+ul {
+	list-style-type: none;
+}
+
 a {
 	text-decoration: none;
 }
@@ -42,8 +46,6 @@ a {
 		margin-top: 38px;
 	}
 		#main-nav ul {
-			list-style-type: none;
-			list-style: none;
 			font: bold 20px 'Trebuchet MS', Tahoma, verdana, sans-serif;
 		}
 			#main-nav ul li {
@@ -153,3 +155,28 @@ a {
 	#socials {
 		float: right;
 	}
+	#socials:after {
+		content: "";
+		clear: both;
+		display: block;
+	}
+		#socials li {
+			float: left;
+			padding: 3px;
+			width: 20px;
+			height: 18px;
+		}
+			#socials li a {
+				display: block;
+				width: 20px;
+				height: 18px;
+			}
+				#socials li a.twitter {
+					background: url("../img/soc/twitter.png") no-repeat;
+				}
+				#socials li a.linkedin {
+					background: url("../img/soc/linkedin.png") no-repeat;
+				}
+				#socials li a.facebook {
+					background: url("../img/soc/facebook.png") no-repeat;		
+				}
