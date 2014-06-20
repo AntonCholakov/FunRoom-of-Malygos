@@ -3,9 +3,6 @@ body, header, aside, section, article, footer, div, img, h1, h2, h3, h4, h5, h6,
 	margin: 0;
 }
 
-<<<<<<< HEAD
-#wrap {
-=======
 body{
 	background-image: url("../img/bg.jpg");
 	background-repeat: no-repeat;
@@ -21,18 +18,13 @@ a {
 }
 
 .wrap {
->>>>>>> origin/master
 	width: 960px;
 	margin: 0 auto;
 }
 
 /* -- Header -- */
 #header {
-<<<<<<< HEAD
-
-=======
 	background: rgba(0, 0, 0, 0.86)
->>>>>>> origin/master
 }
 #header:after {
 	content: "";
@@ -44,6 +36,9 @@ a {
 		float: left;
 		margin:10px;
 	}
+		#logo img {
+			height: 78px;
+		}
 
 	/* Navigation */
 	#main-nav {
@@ -108,11 +103,6 @@ a {
 			width:160px;
 		 }
 
-<<<<<<< HEAD
-/* --- Main Part --- */
-#main-section {
-	border-bottom: 1px solid #ccc;
-=======
 /* Index pic */
 #index-pic {
 	text-align: center;
@@ -124,29 +114,43 @@ a {
 /* -- Bottom part of index -- */
 #bottom-index {
 	background: rgba(0,0,0,.46);
->>>>>>> 986221e084ccc9a47c778d7572e57ce25f819c71
 }
-#main-section:after {
+
+
+/* -- Categories -- */
+#categories {
+	height: 203px;
+	width: 96%;
+	margin: 0 auto;
+}
+#categories:after {
 	content: "";
 	clear: both;
 	display: block;
 }
-	/* - Sidebar - */
-	#sidebar {
-		width: 30%;
-		float: left;
-	}
-
-	/* - Content - */
-	#content {
-		width: 68%;
-		float: left;
-	}
+		#categories ul li {
+			float: left;
+			margin: 0 0 0 12px;
+		}
+			#categories ul li a {
+				display: block;
+				color: #fff;
+				text-align: center;
+				font-size: 18px;
+				width: 146px;
+				height: 125px;
+				padding: 21px 0 0 0;
+			}
+				#categories ul li a img {
+					display: block;
+					margin: 0 auto 20px;
+				}
 
 /* --- Footer --- */
 #footer {
 	width: 96%;
 	margin: 0 auto;
+	color: #fff;
 }
 #footer:after {
 	content: "";
