@@ -3,20 +3,14 @@ body, header, aside, section, article, footer, div, img, h1, h2, h3, h4, h5, h6,
 	margin: 0;
 }
 
-body{
-	background-image: url("../img/bg.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.wrap {
+#wrap {
 	width: 960px;
 	margin: 0 auto;
 }
 
 /* -- Header -- */
 #header {
-	background: rgba(35, 68, 101, 0.8);
+
 }
 #header:after {
 	content: "";
@@ -27,9 +21,6 @@ body{
 	#logo {
 		float: left;
 	}
-		#logo img {
-			height: 78px;
-		}
 
 	/* Navigation */
 	#main-nav {
@@ -47,46 +38,31 @@ body{
 					color: red;
 				}
 
-/* -- Bottom part of index -- */
-#bottom-index {
-	background: rgba(0,0,0,.46);
+/* --- Main Part --- */
+#main-section {
+	border-bottom: 1px solid #ccc;
 }
-
-
-/* -- Categories -- */
-#categories {
-	height: 203px;
-	width: 96%;
-	margin: 0 auto;
-}
-#categories:after {
+#main-section:after {
 	content: "";
 	clear: both;
 	display: block;
 }
-		#categories ul li {
-			float: left;
-			margin: 0 0 0 12px;
-		}
-			#categories ul li a {
-				display: block;
-				color: #fff;
-				text-align: center;
-				font-size: 18px;
-				width: 146px;
-				height: 125px;
-				padding: 21px 0 0 0;
-			}
-				#categories ul li a img {
-					display: block;
-					margin: 0 auto 20px;
-				}
+	/* - Sidebar - */
+	#sidebar {
+		width: 30%;
+		float: left;
+	}
+
+	/* - Content - */
+	#content {
+		width: 68%;
+		float: left;
+	}
 
 /* --- Footer --- */
 #footer {
 	width: 96%;
 	margin: 0 auto;
-	color: #fff;
 }
 #footer:after {
 	content: "";
