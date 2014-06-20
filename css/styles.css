@@ -103,6 +103,14 @@ a {
 			width:160px;
 		 }
 
+/* Index pic */
+#index-pic {
+	text-align: center;
+}
+	#index-pic img {
+		height: 316px;
+	}
+
 /* -- Bottom part of index -- */
 #bottom-index {
 	background: rgba(0,0,0,.46);
