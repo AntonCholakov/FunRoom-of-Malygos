@@ -132,6 +132,12 @@ a {
 			float: left;
 			margin: 0 0 0 12px;
 		}
+		#categories ul li:hover img {
+			-webkit-transform: rotate(360deg);
+			transition: all .6s;
+			-moz-transition: all .6s;
+			-webkit-transition: all .6s;
+		}
 			#categories ul li a {
 				display: block;
 				color: #fff;
