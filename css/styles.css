@@ -114,13 +114,16 @@ a {
 /* -- Bottom part of index -- */
 #bottom-index {
 	background: rgba(0,0,0,.46);
+	width: 100%;
+	position: fixed;
+		bottom: 0; /* sticked to the bottom */
 }
 
 
 /* -- Categories -- */
 #categories {
 	height: 203px;
-	width: 96%;
+	width: 86%;
 	margin: 0 auto;
 }
 #categories:after {
