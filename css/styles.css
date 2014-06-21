@@ -268,3 +268,46 @@ a {
 		padding: 16px 6px;
 		border-bottom: 1px dotted #666;
 	}
+
+/* -- Team members -- */
+#team-members {
+	width: 90%;
+	margin: 0 auto;
+	background: rgba(0,0,0,0.5);
+}
+#team-members:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+	#team-members .member {
+		width: 100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 6px;
+		border-bottom: 1px dotted #666;
+	}
+	#team-members .member:after {
+		content: "";
+		clear: both;
+		display: block;
+	}
+		#team-members .member img {
+			float: left;
+			width: 16%;
+			padding-left: 22px;
+		}
+		#team-members .member .info {
+			float: right;
+			width: 76%;
+			margin-right: 22px;
+			color: #eee;
+		}
+			.member .info h3 {
+				padding-bottom: 5px;
+				border-bottom: 1px dotted #aaa;
+				font-family: Anton, cursive;
+			}
+			.member .info p {
+				padding-top: 10px;
+			}
