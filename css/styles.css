@@ -112,7 +112,7 @@ a {
 	}
 
 /* -- Bottom part of index -- */
-#bottom-index {
+#page-bottom {
 	background: rgba(0,0,0,.46);
 	width: 100%;
 	position: fixed;
@@ -130,17 +130,17 @@ a {
 	clear: both;
 	display: block;
 }
-		#categories ul li {
+		#categories ul li, .jokes-selection ul li {
 			float: left;
 			margin: 0 0 0 12px;
 		}
-		#categories ul li:hover img {
+		#categories ul li:hover img, .jokes-selection ul li:hover img {
 			-webkit-transform: rotate(360deg);
 			transition: all .6s;
 			-moz-transition: all .6s;
 			-webkit-transition: all .6s;
 		}
-			#categories ul li a {
+			#categories ul li a, .jokes-selection ul li a {
 				display: block;
 				color: #fff;
 				text-align: center;
@@ -149,7 +149,7 @@ a {
 				height: 125px;
 				padding: 21px 0 0 0;
 			}
-				#categories ul li a img {
+				#categories ul li a img, .jokes-selection ul li a img {
 					display: block;
 					margin: 0 auto 20px;
 				}
@@ -196,3 +196,75 @@ a {
 				#socials li a.facebook {
 					background: url("../img/soc/facebook.png") no-repeat;		
 				}
+
+/* -- Inner pages elements -- */
+#inner-content {
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	color: #eee;
+}
+#inner-content:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+	/* Content section */
+	.content-section {
+		width: 66%;
+		float: left;
+	}
+		.	
+	
+
+	/* Sidebar */
+	.aside-cat {
+		width: 33%;
+		background: blue;
+		float: right;
+	}
+
+/* Jokes selection aside */
+.jokes-selection {
+	padding-top: 20px;
+}
+.jokes_selection:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.aside-cat {
+	float: right;
+}
+.aside-cat:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+	.aside-cat ul li {
+		padding-left: 26px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background: url("../img/emoticons/smile.png") no-repeat 3px 12px;
+	}
+	.aside-cat ul li:hover, #selected-cat-jokes {
+		background: url("../img/emoticons/laugh.png") no-repeat 3px 12px;
+	}
+		.aside-cat ul li a {
+			color: #eee;
+		}
+#jokes-content {
+}
+#jokes-content:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+	.cat-joke {
+		padding-bottom: 6px;
+	}
+	#jokes-content article {
+		width: 90%;
+		padding: 16px 6px;
+		border-bottom: 1px dotted #666;
+	}
