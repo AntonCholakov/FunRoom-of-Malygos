@@ -311,3 +311,17 @@ a {
 			.member .info p {
 				padding-top: 10px;
 			}
+
+/* -- Gallery -- */
+#gallery {
+}
+#gallery:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+	#gallery img {
+		float: left;
+		max-width: 120px;
+		margin: 14px;
+	}
