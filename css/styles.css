@@ -264,6 +264,13 @@ a {
 	clear: both;
 	display: block;
 }
+#joke-of-day {
+	width: 100%;
+	margin: 0 auto;
+	background: rgba(0,0,0,0.5);
+	padding: 40px;
+	color: #eee;
+}
 	.cat-joke {
 		padding-bottom: 6px;
 	}
