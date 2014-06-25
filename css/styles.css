@@ -6,7 +6,7 @@ body, header, aside, section, article, footer, div, img, h1, h2, h3, h4, h5, h6,
 body{
 	background-image: url("../img/bg.jpg");
 	background-repeat: repeat;
-	background-size: cover;
+	background-size: 100%;
 }
 
 ul {
