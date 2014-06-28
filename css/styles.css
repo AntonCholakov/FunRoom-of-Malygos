@@ -22,7 +22,26 @@ a {
 	width: 960px;
 	margin: 0 auto;
 }
-
+#news {
+	width: 100%;
+	margin: 0 auto;
+	background: rgba(0,0,0,0.5);
+	padding: 40px;
+	color: #eee;
+	}
+#newsblock83112512{
+	width: 70%;
+	margin: 0 auto;
+	padding: 20px 20px 20px 20px;
+}
+.bc_title {
+	color: yellow;
+	font-size: 25px;
+}
+#feedtitle{
+	color: #0AFFFA;
+	font-size: 35px;
+}
 /* -- Header -- */
 #header {
 	background: rgba(0, 0, 0, 0.86)
