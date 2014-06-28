@@ -5,7 +5,8 @@ body, header, aside, section, article, footer, div, img, h1, h2, h3, h4, h5, h6,
 
 body{
 	background-image: url("../img/bg.jpg");
-	background-repeat: repeat;
+	background-color: #040c0e;
+	background-repeat: repeat-x;
 	background-size: 100%;
 }
 
