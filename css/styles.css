@@ -363,35 +363,51 @@ a {
 		margin: 14px;
 	}
 	
-@media screen and (max-width:480px)
-{
-	#main-nav ul li {
-		
-	}
+	/* ---- Media Queries ---- */
+	
+@media all and (max-width: 960px) {
 	#page-bottom {
 		position: static;
+	}
+}
+
+@media all and (max-width: 780px) {
+	
+}
+
+@media all and (max-width: 640px) {
+	
+}
+
+@media all and (max-width: 480px)
+{
+	#main-nav ul li {
+		margin: 0 auto;
+		display: block;
+		width: 44%;
+		float: left;
+		border-bottom: 1px dotted #666;				
+	}
+		#main-nav ul li a {
+			float: none;
+			font-size: 25px;
+			color: #fff;
+		}
+		#main-nav ul li#current a{
+			color: #29ede9;
+			border: none;
+		}
+		#main-nav ul li:hover a {
+			border: none;
+			color: #29ede9;
+		}
+		
+	#categories {
+		width: 50%;
+		margin: 0 auto;
 	}
 	
 	.mobile-hide {
 		display: none;
 	}
-	#footer {
-		bottom:0px;
-		height:30;
-		right:0%;
-		left:0%;
-		position:fixed!important;
-		position:absolute;
-		width=100%;
-		top:expression((0-(footer.offsetHeight)+
-		(document.documentElement.clientHeight?
-		document.documentElement.clientHeight:
-		document.body.clientHeight)+(ignoreMe=document.documentElement.scrollTop?
-		document.documentElement.scrollTop:document.
-		body.scrollTop))+'px');
-		text-align:center;
-		visibility:visible;
-		background: #040c0e;
-		font-size: 12px;
-		}
 }
