@@ -375,4 +375,22 @@ a {
 	.mobile-hide {
 		display: none;
 	}
+	#footer {
+		bottom:0px;
+		height:30;
+		right:0%;
+		left:0%;
+		position:fixed!important;
+		position:absolute;
+		width=100%;
+		top:expression((0-(footer.offsetHeight)+
+		(document.documentElement.clientHeight?
+		document.documentElement.clientHeight:
+		document.body.clientHeight)+(ignoreMe=document.documentElement.scrollTop?
+		document.documentElement.scrollTop:document.
+		body.scrollTop))+'px');
+		text-align:center;
+		visibility:visible;
+		background: #040c0e;
+		}
 }
