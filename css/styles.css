@@ -91,8 +91,9 @@ a {
 					}
 				/* search form */
 		#search {
-			float: left;
+			float: right;
 			margin-top: 30px;
+			margin-right: 20px;
 		}
 		#search:after {
 			content: "";
@@ -146,6 +147,8 @@ a {
 /* -- Categories -- */
 #categories {
 	display: flex;
+	width: 80%;
+	margin: 0 auto;
 }
 #categories:after {
 	content: "";
@@ -363,11 +366,25 @@ a {
 		margin: 14px;
 	}
 	
+/* avoiding breaking response on pre tag */
+pre {
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	width: 99%;
+}	
+
 	/* ---- Media Queries ---- */
 	
 @media all and (max-width: 960px) {
 	#page-bottom {
 		position: static;
+	}
+	#search {
+		float: left;
+		padding-bottom: 14px;
 	}
 }
 
@@ -376,7 +393,31 @@ a {
 }
 
 @media all and (max-width: 640px) {
-	
+	#main-nav ul li {
+		margin: 0 auto;
+		display: block;
+		width: 44%;
+		float: left;
+		border-bottom: 1px dotted #666;				
+	}
+		#main-nav ul li a {
+			float: none;
+			font-size: 25px;
+			color: #fff;
+		}
+		#main-nav ul li#current a{
+			color: #29ede9;
+			border: none;
+		}
+		#main-nav ul li:hover a {
+			border: none;
+			color: #29ede9;
+		}
+		
+	#categories {
+		width: 50%;
+		margin: 0 auto;
+	}
 }
 
 @media all and (max-width: 480px)
