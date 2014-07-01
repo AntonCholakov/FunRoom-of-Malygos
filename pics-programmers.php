@@ -1,4 +1,5 @@
 <?php
+	$pageCategory = 'Картинки';
 	$pageTitle = 'Картинки - програмисти';
 	include 'header.php';
 ?>

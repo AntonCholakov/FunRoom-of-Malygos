@@ -25,11 +25,11 @@
 					<!-- Navigation -->
 				<nav id="main-nav">
 					<ul>
-						<li id="current"><a href="index.php">Начало</a></li>
-						<li><a href="jokes.php">Вицове</a></li>
-						<li><a href="gallery.php">Галерия</a></li>
-						<li><a href="news.php">Новини</a></li>
-						<li><a href="about.php">За нас</a></li>
+						<li <?php if ($pageTitle == 'Начало'){ ?> id="current" <?php } ?>><a href="index.php">Начало</a></li>
+						<li <?php if ($pageTitle =='Вицове' || (isset($pageCategory) && ($pageCategory == 'Вицове'))){ ?> id="current" <?php } ?>><a href="jokes.php">Вицове</a></li>
+						<li <?php if ($pageTitle =='Картинки' || (isset($pageCategory) && ($pageCategory == 'Картинки'))){ ?> id="current" <?php } ?>><a href="gallery.php">Галерия</a></li>
+						<li <?php if ($pageTitle == 'Новини'){ ?> id="current" <?php } ?>><a href="news.php">Новини</a></li>
+						<li <?php if ($pageTitle == 'За нас'){ ?> id="current" <?php } ?>><a href="about.php">За нас</a></li>
 						<li><a href="http://softuni.bg" target="_blank">SoftUni</a></li>
 					</ul>
 				</nav>

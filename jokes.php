@@ -28,7 +28,7 @@
 						</li>
 
 						<li id="programmers">
-							<a href="jokes-drank.php">
+							<a href="jokes-drunk.php">
 								<img src="img/icons/jokes.png" alt="Home" />
 								Пияни
 							</a>
