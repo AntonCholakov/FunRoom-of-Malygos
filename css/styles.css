@@ -75,7 +75,7 @@ a {
 		}
 			#main-nav ul li {
 				display: inline-block;
-				padding: 0 18px;
+				padding: 0 17px;
 			}
 				#main-nav ul li a {
 					float: left;
@@ -140,8 +140,6 @@ a {
 #page-bottom {
 	background: rgba(0,0,0,.46);
 	width: 100%;
-	position: absolute;
-		bottom: 0; /* sticked to the bottom */
 }
 
 /* -- Categories -- */
@@ -312,6 +310,7 @@ a {
 	width: 90%;
 	margin: 0 auto;
 	background: rgba(0,0,0,0.5);
+	padding-top: 14px;
 }
 #team-members:after {
 	content: "";
@@ -336,9 +335,10 @@ a {
 			padding-left: 22px;
 		}
 		#team-members .member .info {
-			float: right;
+			float: left;
 			width: 76%;
 			margin-right: 22px;
+			padding-left: 14px;
 			color: #eee;
 		}
 			.member .info h3 {
