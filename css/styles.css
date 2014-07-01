@@ -421,6 +421,14 @@ pre {
 		width: 50%;
 		margin: 0 auto;
 	}	
+	#jokes-content {
+		display: block;
+		float: none;
+	}
+	.aside-cat {
+		display: block;
+		float: none;
+	}
 	.mobile-hide {
 		display: none;
 	}
