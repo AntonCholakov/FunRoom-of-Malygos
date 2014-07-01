@@ -1,5 +1,6 @@
 <?php
 	$pageCategory = 'Вицове';
+	$category = 'програмисти';
 	$pageTitle = 'Вицове - програмисти';
 	include 'header.php';
 ?>
