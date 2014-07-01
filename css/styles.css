@@ -242,17 +242,7 @@ a {
 		float: left;
 		font-weight: bold;
                 font-size: 16px;
-	}
-	
-		.	
-	
-
-	/* Sidebar */
-	.aside-cat {
-		width: 33%;
-		background: blue;
-		float: right;
-	}
+	}	
 
 /* Jokes selection aside */
 .jokes-selection {
@@ -264,19 +254,34 @@ a {
 	display: block;
 }
 
+/* Aside */
+
 .aside-cat {
 	float: right;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 12px 0 0 12px;
 }
 .aside-cat:after {
 	content: "";
 	clear: both;
 	display: block;
 }
+
 	.aside-cat ul li {
 		padding-left: 26px;
 		padding-top: 10px;
 		padding-bottom: 10px;
 		background: url("../img/emoticons/smile.png") no-repeat 3px 12px;
+	}
+	.aside-cat ul li.heading {
+		border-bottom: 1px solid #eee;
+		background: none;
+		padding: 10px;
+		text-align: center;
+	}
+	.aside-cat ul li.heading:hover {
+		background: none;
 	}
 	.aside-cat ul li:hover, #selected-cat-jokes {
 		background: url("../img/emoticons/laugh.png") no-repeat 3px 12px;
@@ -445,6 +450,7 @@ pre {
 	.aside-cat {
 		display: block;
 		float: none;
+		margin-bottom: 24px;
 	}
 	.mobile-hide {
 		display: none;
