@@ -293,8 +293,6 @@ a {
 	display: block;
 }
 #joke-of-day {
-	width: 100%;
-	margin: 0 auto;
 	background: rgba(0,0,0,0.5);
 	padding: 40px;
 	color: #eee;
@@ -417,7 +415,7 @@ pre {
 	#categories {
 		width: 50%;
 		margin: 0 auto;
-	}
+	}	
 }
 
 @media all and (max-width: 480px)
@@ -450,5 +448,12 @@ pre {
 	
 	.mobile-hide {
 		display: none;
+	}
+	
+}
+@media all and (max-height: 480px)
+{
+	body {
+		background: red;
 	}
 }
