@@ -226,6 +226,7 @@ a {
 	width: 100%;
 	background: rgba(0,0,0,0.5);
 	color: #eee;
+	padding-top: 20px;
 }
 #inner-content:after {
 	content: "";
@@ -378,7 +379,7 @@ pre {
 	
 @media all and (max-width: 960px) {
 	#page-bottom {
-		position: static;
+		position: static!important;
 	}
 	#search {
 		float: left;
@@ -412,10 +413,13 @@ pre {
 			color: #29ede9;
 		}
 		
-	#categories {
+	#categories, .jokes-selection {
 		width: 50%;
 		margin: 0 auto;
 	}	
+	.mobile-hide {
+		display: none;
+	}
 }
 
 @media all and (max-width: 480px)
@@ -450,10 +454,4 @@ pre {
 		display: none;
 	}
 	
-}
-@media all and (max-height: 480px)
-{
-	body {
-		background: red;
-	}
 }
