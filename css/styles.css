@@ -377,7 +377,7 @@ pre {
 
 	/* ---- Media Queries ---- */
 	
-@media all and (max-width: 960px) {
+@media all and (max-width:1246px) {
 	#page-bottom {
 		position: static!important;
 	}
@@ -385,6 +385,10 @@ pre {
 		float: left;
 		padding-bottom: 14px;
 	}
+}
+
+@media all and (max-width: 960px) {
+	
 }
 
 @media all and (max-width: 780px) {
