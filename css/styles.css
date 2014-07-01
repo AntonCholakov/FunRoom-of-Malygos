@@ -401,6 +401,22 @@ pre {
 }
 
 @media all and (max-width: 960px) {
+		
+	#jokes-content, #gallery {
+		display: block;
+		float: none;
+		width: 90%;
+	}
+	.aside-cat {
+		display: block;
+		float: none;
+		margin-bottom: 24px;
+	}
+	
+	.aside-cat {
+		display: block;
+		float: none;
+	}
 	
 }
 
@@ -443,15 +459,6 @@ pre {
 		margin: 0 auto;
 	}
 	
-	#jokes-content, #gallery {
-		display: block;
-		float: none;
-	}
-	.aside-cat {
-		display: block;
-		float: none;
-		margin-bottom: 24px;
-	}
 	.mobile-hide {
 		display: none;
 	}
