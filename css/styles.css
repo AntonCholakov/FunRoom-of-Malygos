@@ -69,6 +69,7 @@ a {
 	#main-nav {
 		float: left;
 		margin-top: 38px;
+		padding-bottom: 12px;
 	}
 		#main-nav ul {
 			font: bold 20px 'Trebuchet MS', Tahoma, verdana, sans-serif;
@@ -430,11 +431,13 @@ pre {
 	
 }
 
-@media all and (max-width: 780px) {
+@media all and (max-width: 780px) 
+{
 	
 }
 
-@media all and (max-width: 640px) {
+@media all and (max-width: 640px) 
+{
 	#main-nav ul li {
 		margin: 0 auto;
 		display: block;
