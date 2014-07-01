@@ -341,7 +341,12 @@ a {
 		#team-members .member img {
 			float: left;
 			width: 16%;
-			padding-left: 22px;
+			margin-left: 22px;
+			transition: 0.7s ease all;
+		}
+		#team-members .member:hover img {
+			box-shadow: 1px 1px 11px 1px #ddd;
+			transition: 0.7s ease all;
 		}
 		#team-members .member .info {
 			float: left;
@@ -376,6 +381,11 @@ a {
 		#gallery .pic img {
 			width: 100%;
 			height: 100%;
+			transition: 0.7s ease all;
+		}
+		#gallery .pic:hover img {
+			box-shadow: 1px 1px 11px 1px #ddd;
+			transition: 0.7s ease all;
 		}
 	
 /* avoiding breaking response on pre tag */
