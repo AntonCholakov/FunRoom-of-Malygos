@@ -199,8 +199,18 @@ a {
 	#validated {
 		float: right;
 	}
+	#validated:after {
+		content: "";
+		clear: both;
+		display: block;
+	}
+		#validated p {
+			float: left;
+			margin: 6px 0 0 6px;
+		}
 	#socials {
 		float: right;
+		margin-top: 12px;
 	}
 	#socials:after {
 		content: "";
