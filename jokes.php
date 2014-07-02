@@ -13,42 +13,42 @@
 					
 					<ul>
 
-						<li id="programmers">
+						<li>
 							<a href="jokes-programmers.php">
 								<img src="img/icons/jokes.png" alt="Home" />
 								Програмисти
 							</a>
 						</li>
 
-						<li id="programmers">
+						<li>
 							<a href="jokes-animals.php">
 								<img src="img/icons/jokes.png" alt="Home" />
 								Животни
 							</a>
 						</li>
 
-						<li id="programmers">
+						<li>
 							<a href="jokes-drunk.php">
 								<img src="img/icons/jokes.png" alt="Home" />
 								Пияни
 							</a>
 						</li>
 						
-						<li id="programmers">
+						<li>
 							<a href="jokes-dirty.php">
 								<img src="img/icons/jokes.png" alt="Home" />
 								Мръсни
 							</a>
 						</li>
 						
-						<li id="programmers">
+						<li>
 							<a href="jokes-blondy.php">
 								<img src="img/icons/jokes.png" alt="Home" />
 								Блондинки
 							</a>
 						</li>
 						
-						<li id="programmers">
+						<li>
 							<a href="jokes-students.php">
 								<img src="img/icons/jokes.png" alt="Home" />
 								Студенти
@@ -72,7 +72,7 @@
 
 			<article>
 				<p class="cat-joke">Категория: <strong>Програмисти</strong></p>
-				<p><pre>Вървял си един програмист по пътя и изведнъж гледа някаква странна жаба, 
+				<pre>Вървял си един програмист по пътя и изведнъж гледа някаква странна жаба, 
 която му проговаря с човешки глас:
 - Моля те, целуни ме, и ще се превърна в принцеса!
 Навел се програмистът и я вдигнал. Разгледал я внимателно, и си я прибрал в джоба.
@@ -84,7 +84,7 @@
 Повторило се това няколко пъти и накрая жабата не издържала:
 - Ама ако ме целунеш, освен богата принцеса, за която да се ожениш, 
 аз ще мога да изпълня всичките ти желания…
-- А, не ща!!! Говоряща жаба по-ме кефи – отговорил програмистът.</pre></p>
+- А, не ща!!! Говоряща жаба по-ме кефи – отговорил програмистът.</pre>
 
 			</article>
 		</section>	

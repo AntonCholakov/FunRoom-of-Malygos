@@ -13,14 +13,14 @@
 					
 					<ul>
 
-						<li id="programmers">
+						<li>
 							<a href="pics-programmers.php">
 								<img src="img/icons/jokes.png" alt="Картинки за програмисти" />
 								Програмисти
 							</a>
 						</li>
 
-						<li id="programmers">
+						<li>
 							<a href="pics-other.php">
 								<img src="img/icons/jokes.png" alt="Други картинки" />
 								Други

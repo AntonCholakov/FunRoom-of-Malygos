@@ -196,6 +196,9 @@ a {
 	#copyright {
 		float: left;
 	}
+	#validated {
+		float: right;
+	}
 	#socials {
 		float: right;
 	}
